@@ -40,7 +40,6 @@ Smart_SOC/
 │   ├── responder.py      # Réponse active (iptables)
 │   ├── soc_agent.py      # Agent IA interactif (Ollama)
 │   ├── telegram_agent.py # Interface conversationnelle Telegram
-│   └── voice.py          # Synthèse vocale des alertes
 └── configs/              # Configurations des capteurs et de l'infrastructure
     ├── ubuntu_target/    # [192.168.56.20]
     │   ├── ossec.conf    # Paramétrage de l'Agent Wazuh
