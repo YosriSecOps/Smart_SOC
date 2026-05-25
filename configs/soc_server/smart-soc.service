@@ -1,0 +1,17 @@
+[Unit]
+Description=Smart SOC Pipeline Al-Powered Security Monitoring
+After=network.target wazuh-manager.service
+Wants=wazuh-manager.service
+
+[Service]
+Type=simple
+User=wazuh-server
+WorkingDirectory=/home/wazuh-server/smart-soc
+ExecStart=/home/wazuh-server/smart-soc/venv/bin/python main.py
+Restart=always
+RestartSec=10
+StandardOutput=journal
+StandardError=journal
+
+[Install]
+WantedBy=multi-user.target
