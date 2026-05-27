@@ -1,8 +1,8 @@
 # notifier.py
 import requests
 
-TOKEN = "8683565076:AAEy60pNCkEymSVxg9t2AnhQ55VifvJexCk"
-CHAT_ID ="6237076538"
+TOKEN = "YOU_BOT_TOKEN"
+CHAT_ID ="CHAT_ID"
 
 def send(msg):
     url = f"https://api.telegram.org/bot{TOKEN}/sendMessage"
