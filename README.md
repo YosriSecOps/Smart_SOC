@@ -77,4 +77,5 @@ Smart_SOC/
 ## 👥 Équipe du Projet
 Ce travail a été réalisé par le futur ingénieur dans le cadre d'un Projet de Fin d'Année à **TEK-UP University** (Année Académique 2024-2025) :
 * **Hamdouni Yosri**
+Yosri Hamdouni ([@YosriSecOps](https://github.com/YosriSecOps)) 
 
